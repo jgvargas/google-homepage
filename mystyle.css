@@ -1,0 +1,108 @@
+body {
+  font-family: arial,sans-serif;
+}
+
+div.logo{
+  /* Has a padding of: top, left, right, bottom */
+  padding: 2cm 4cm 3cm 4cm;
+}
+
+ul {
+  font-size: small;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*background-color: #333;*/
+}
+
+li{
+  float:left;
+}
+
+li a{
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: blue;
+}
+
+form {
+  text-align: center;
+}
+
+.outertextbar {
+  padding-left: 16px;
+  /*
+
+  */
+  box-sizing: border-box;
+  border: 1px solid grey;
+  display: block;
+  height: 100%;
+  padding: 6px 9px 0px;
+}
+
+#innertextbar {
+  padding: 0px;
+  margin: 0px;
+  height: auto;
+  width: 100%;
+  font-size: medium;
+  /*
+  border: none;
+  outline: none;
+  */
+}
+
+.footerbar {
+  position: absolute;
+  right:0;
+  bottom: 0;
+  left: 0;
+  color: #666;
+  padding-bottom: 18px;
+  font-size: small;
+  line-height: 40px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+
+  /*min-width: 980px;
+  */
+}
+a._Blockspace {
+  text-decoration: none;
+}
+a._Blockspace:hover {
+  text-decoration: underline;
+}
+
+#fbarr {
+  /*text-align: right;
+  */
+  float: right;
+  margin-right: 30px;
+  white-space: nowrap;
+}
+
+#fbarl {
+  /*padding-left: 27px;
+  float:left;
+  */
+  margin-left: 30px;
+  white-space: nowrap;
+  color: #222;
+}
+
+._Blockspace {
+  padding-left: 27px;
+}
