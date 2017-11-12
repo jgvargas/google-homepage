@@ -32,6 +32,18 @@ li a:hover {
   text-decoration: underline;
 }
 
+#signin {
+  display: inline-block;
+  height: 15px;
+
+  border: 1px solid #4285f4
+  color: #FFFFFF;
+}
+
+.googleappsicon {
+  vertical-align: middle;
+}
+
 /* CSS for logo section */
 div.logo{
   /* Has a padding of: top, left, right, bottom */
@@ -61,8 +73,8 @@ form {
   height: auto;
   width: 100%;
   font-size: medium;
-  /*
   border: none;
+  /*
   outline: none;
   */
 }
